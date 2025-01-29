@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sample-linux-deployment
-  namespace: sample-app
+  namespace: app-demo
   labels:
     app: sample-linux-app
 spec:
